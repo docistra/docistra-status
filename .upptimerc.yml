@@ -17,6 +17,11 @@ sites:
   - name: Automations API
     url: https://api.kashfy.site/healthz
     icon: https://www.kashfy.site/icon.svg
+  - name: SMS Gateway
+    url: https://sms.kashfy.site/api/v1/auth/who-am-i
+    expectedStatusCodes:
+      - 401
+    icon: https://www.kashfy.site/icon.svg  
 
 
 assignees:
