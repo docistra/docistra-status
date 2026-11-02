@@ -11,6 +11,12 @@ sites:
   - name: Health
     url: https://www.kashfy.site/api/health
     icon: https://www.kashfy.site/icon.svg  
+  - name: App
+    url: https://app.kashfy.site/api/health/live
+    icon: https://www.kashfy.site/icon.svg
+  - name: Automations API
+    url: https://api.kashfy.site/healthz
+    icon: https://www.kashfy.site/icon.svg
 
 
 assignees:
