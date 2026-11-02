@@ -22,6 +22,9 @@ sites:
     expectedStatusCodes:
       - 401
     icon: https://www.kashfy.site/icon.svg  
+  - name: Docs
+    url: https://docs.kashfy.site/healthz
+    icon: https://www.kashfy.site/icon.svg
 
 
 assignees:
