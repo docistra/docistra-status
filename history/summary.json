@@ -1,13 +1,13 @@
 [
   {
     "name": "Website",
-    "url": "https://www.kashfy.site",
-    "icon": "https://www.kashfy.site/icon.svg",
+    "url": "https://docistra.com",
+    "icon": "https://docistra.com/icon.svg",
     "slug": "website",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1305,
@@ -15,17 +15,19 @@
     "timeWeek": 348,
     "timeMonth": 1078,
     "timeYear": 1305,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-13": 1
+    }
   },
   {
     "name": "Health",
-    "url": "https://www.kashfy.site/api/health",
-    "icon": "https://www.kashfy.site/icon.svg",
+    "url": "https://docistra.com/api/health",
+    "icon": "https://docistra.com/icon.svg",
     "slug": "health",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 648,
@@ -33,17 +35,19 @@
     "timeWeek": 797,
     "timeMonth": 648,
     "timeYear": 648,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-13": 1
+    }
   },
   {
     "name": "App",
-    "url": "https://app.kashfy.site/api/health/live",
-    "icon": "https://www.kashfy.site/icon.svg",
+    "url": "https://app.docistra.com/api/health/live",
+    "icon": "https://docistra.com/icon.svg",
     "slug": "app",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 151,
@@ -51,12 +55,14 @@
     "timeWeek": 139,
     "timeMonth": 151,
     "timeYear": 151,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-13": 1
+    }
   },
   {
     "name": "Automations API",
-    "url": "https://api.kashfy.site/healthz",
-    "icon": "https://www.kashfy.site/icon.svg",
+    "url": "https://api.docistra.com/healthz",
+    "icon": "https://docistra.com/icon.svg",
     "slug": "automations-api",
     "status": "up",
     "uptime": "100.00%",
@@ -64,21 +70,21 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2448,
-    "timeDay": 181,
-    "timeWeek": 133,
-    "timeMonth": 2448,
-    "timeYear": 2448,
+    "time": 2287,
+    "timeDay": 193,
+    "timeWeek": 142,
+    "timeMonth": 2287,
+    "timeYear": 2287,
     "dailyMinutesDown": {}
   },
   {
     "name": "SMS Gateway",
-    "url": "https://sms.kashfy.site/api/v1/auth/who-am-i",
-    "icon": "https://www.kashfy.site/icon.svg",
+    "url": "https://sms.docistra.com/api/v1/auth/who-am-i",
+    "icon": "https://docistra.com/icon.svg",
     "slug": "sms-gateway",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -87,24 +93,26 @@
     "timeWeek": 146,
     "timeMonth": 151,
     "timeYear": 204,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-13": 0
+    }
   },
   {
-    "name": "Docs",
-    "url": "https://docs.kashfy.site/healthz",
-    "icon": "https://www.kashfy.site/icon.svg",
-    "slug": "docs",
-    "status": "up",
+    "name": "Help Center",
+    "url": "https://help.docistra.com/healthz",
+    "icon": "https://docistra.com/icon.svg",
+    "slug": "help-center",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 138,
-    "timeDay": 185,
-    "timeWeek": 137,
-    "timeMonth": 138,
-    "timeYear": 138,
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
     "dailyMinutesDown": {}
   }
 ]
