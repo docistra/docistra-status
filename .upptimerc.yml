@@ -1,7 +1,7 @@
 # Core Configuration
 
 owner: docistra        
-repo: docistra-status           
+repo: docistra-status            
 
 # Monitoring Targets
 sites:
