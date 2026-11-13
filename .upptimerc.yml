@@ -1,49 +1,54 @@
 # Core Configuration
 
-owner: kashfy-clinics
-repo: kashfy-status
+owner: docistra        
+repo: docistra-status           
 
 # Monitoring Targets
 sites:
   - name: Website
-    url: https://www.kashfy.site
-    icon: https://www.kashfy.site/icon.svg
+    url: https://docistra.com
+    icon: https://docistra.com/icon.svg
   - name: Health
-    url: https://www.kashfy.site/api/health
-    icon: https://www.kashfy.site/icon.svg  
+    url: https://docistra.com/api/health
+    icon: https://docistra.com/icon.svg
   - name: App
-    url: https://app.kashfy.site/api/health/live
-    icon: https://www.kashfy.site/icon.svg
+    url: https://app.docistra.com/api/health/live
+    icon: https://docistra.com/icon.svg
   - name: Automations API
-    url: https://api.kashfy.site/healthz
-    icon: https://www.kashfy.site/icon.svg
+    url: https://api.docistra.com/healthz
+    icon: https://docistra.com/icon.svg
   - name: SMS Gateway
-    url: https://sms.kashfy.site/api/v1/auth/who-am-i
+    url: https://sms.docistra.com/api/v1/auth/who-am-i
     expectedStatusCodes:
       - 401
-    icon: https://www.kashfy.site/icon.svg  
-  - name: Docs
-    url: https://docs.kashfy.site/healthz
-    icon: https://www.kashfy.site/icon.svg
+    icon: https://docistra.com/icon.svg
+  - name: Help Center
+    url: https://help.docistra.com/healthz
+    icon: https://docistra.com/icon.svg
+  # A real public page, so a broken page can't hide behind green health checks.
+  # Replace <clinic-slug> with a live clinic slug, then uncomment.
+  # - name: Clinic page
+  #   url: https://clinics.docistra.com/en/<clinic-slug>
+  #   icon: https://docistra.com/icon.svg
 
 
 assignees:
-  - kashfy-clinics
+  - NEW_GITHUB_ACCOUNT
 
 # Status Website Customization
 status-website:
-  cname: status.kashfy.site
+  cname: status.docistra.com
   baseUrl: ""
 
   css: |
-    /* 0. Kashfy English font (same as the app; served from kashfy.site with CORS *) */
+    /* 0. Docistra English font (same as the app; served from docistra.com with CORS *) */
     @font-face {
-      font-family: 'Kashfy Sans';
-      src: url('https://www.kashfy.site/fonts/KashfySansBody.woff2') format('woff2');
+      font-family: 'Docistra Sans';
+      src: url('https://docistra.com/fonts/KashfySansBody.woff2') format('woff2');
       font-display: swap;
     }
 
-    /* 1. Base Variables for Theming (same tokens as the Kashfy app) */
+    /* 1. Base Variables for Theming (same tokens as the Docistra app) */
     :root {
       --bg-main: #f2f5f4;
       --bg-card: #ffffff;
@@ -63,7 +68,7 @@ status-website:
 
     /* 2. Base Font & Theming Application */
     body, html, * {
-      font-family: 'Kashfy Sans', system-ui, sans-serif !important;
+      font-family: 'Docistra Sans', system-ui, sans-serif !important;
     }
     body {
       background-color: var(--bg-main) !important;
@@ -86,7 +91,7 @@ status-website:
 
     /* 3. Headings */
     h1, h2, h3, .intro h1, .intro h1 * {
-      font-family: 'Kashfy Sans', system-ui, sans-serif !important;
+      font-family: 'Docistra Sans', system-ui, sans-serif !important;
       font-weight: 700 !important;
       letter-spacing: -0.01em;
     }
@@ -141,19 +146,19 @@ status-website:
       position: relative;
     }
 
-  logoUrl: https://www.kashfy.site/logo.svg
-  favicon: https://www.kashfy.site/icon.svg
-  name: "Kashfy Status"
-  introTitle: "Kashfy Service Status"
-  introMessage: "Live monitoring of the Kashfy website, SMS gateway and verification phone."
+  logoUrl: https://docistra.com/logo.svg
+  favicon: https://docistra.com/icon.svg
+  name: "Docistra Status"
+  introTitle: "Docistra Service Status"
+  introMessage: "Live monitoring of the Docistra website, app, automations, SMS gateway and help center."
   theme: light
 
   customHeadHtml: |
-    <meta name="description" content="Live monitoring of Kashfy's website and SMS verification services." />
+    <meta name="description" content="Live monitoring of Docistra's website, app and SMS verification services." />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Kashfy Status" />
-    <meta property="og:description" content="Check the live status of Kashfy's website and SMS gateway." />
-    <meta property="og:image" content="https://www.kashfy.site/icon.png" />
+    <meta property="og:title" content="Docistra Status" />
+    <meta property="og:description" content="Check the live status of Docistra's website, app and SMS gateway." />
+    <meta property="og:image" content="https://docistra.com/icon.png" />
     <meta name="twitter:card" content="summary" />
     <script>
       (function() {
@@ -163,8 +168,8 @@ status-website:
         const currentTheme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
         document.documentElement.setAttribute('data-theme', currentTheme);
 
-        const logoLight = "https://www.kashfy.site/logo.svg";
-        const logoDark = "https://www.kashfy.site/logo-white.svg";
+        const logoLight = "https://docistra.com/logo.svg";
+        const logoDark = "https://docistra.com/logo-white.svg";
 
         const moonSvg = `<svg style="width:24px; height:24px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>`;
         const sunSvg = `<svg style="width:24px; height:24px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>`;
