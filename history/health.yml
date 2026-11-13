@@ -1,7 +1,7 @@
 url: https://docistra.com/api/health
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-11-13T03:17:54.995Z
+status: up
+code: 200
+responseTime: 412
+lastUpdated: 2026-11-13T03:37:16.171Z
 startTime: 2026-10-16T09:40:11.325Z
 generator: Upptime <https://github.com/upptime/upptime>
