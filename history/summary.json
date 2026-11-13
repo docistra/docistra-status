@@ -5,38 +5,36 @@
     "icon": "https://docistra.com/icon.svg",
     "slug": "website",
     "status": "up",
-    "uptime": "99.85%",
-    "uptimeDay": "93.48%",
-    "uptimeWeek": "99.07%",
-    "uptimeMonth": "99.79%",
-    "uptimeYear": "99.85%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 1291,
     "timeDay": 551,
     "timeWeek": 398,
     "timeMonth": 956,
     "timeYear": 1291,
-    "dailyMinutesDown": {
-      "2026-11-13": 94
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Health",
     "url": "https://docistra.com/api/health",
     "icon": "https://docistra.com/icon.svg",
     "slug": "health",
-    "status": "down",
-    "uptime": "99.77%",
-    "uptimeDay": "93.49%",
-    "uptimeWeek": "99.07%",
-    "uptimeMonth": "99.77%",
-    "uptimeYear": "99.77%",
-    "time": 632,
-    "timeDay": 383,
-    "timeWeek": 721,
-    "timeMonth": 632,
-    "timeYear": 632,
+    "status": "up",
+    "uptime": "99.85%",
+    "uptimeDay": "95.83%",
+    "uptimeWeek": "99.40%",
+    "uptimeMonth": "99.85%",
+    "uptimeYear": "99.85%",
+    "time": 642,
+    "timeDay": 580,
+    "timeWeek": 749,
+    "timeMonth": 642,
+    "timeYear": 642,
     "dailyMinutesDown": {
-      "2026-11-13": 94
+      "2026-11-13": 60
     }
   },
   {
@@ -45,19 +43,17 @@
     "icon": "https://docistra.com/icon.svg",
     "slug": "app",
     "status": "up",
-    "uptime": "99.38%",
-    "uptimeDay": "93.50%",
-    "uptimeWeek": "99.07%",
-    "uptimeMonth": "99.38%",
-    "uptimeYear": "99.38%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 154,
     "timeDay": 194,
     "timeWeek": 153,
     "timeMonth": 154,
     "timeYear": 154,
-    "dailyMinutesDown": {
-      "2026-11-13": 94
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Automations API",
@@ -101,18 +97,16 @@
     "icon": "https://docistra.com/icon.svg",
     "slug": "help-center",
     "status": "up",
-    "uptime": "65.54%",
-    "uptimeDay": "65.54%",
-    "uptimeWeek": "65.54%",
-    "uptimeMonth": "65.54%",
-    "uptimeYear": "65.54%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 148,
     "timeDay": 148,
     "timeWeek": 148,
     "timeMonth": 148,
     "timeYear": 148,
-    "dailyMinutesDown": {
-      "2026-11-13": 74
-    }
+    "dailyMinutesDown": {}
   }
 ]
