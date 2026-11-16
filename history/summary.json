@@ -22,18 +22,20 @@
     "url": "https://docistra.com/api/health",
     "icon": "https://docistra.com/icon.svg",
     "slug": "health",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 621,
-    "timeDay": 453,
-    "timeWeek": 594,
-    "timeMonth": 628,
-    "timeYear": 621,
-    "dailyMinutesDown": {}
+    "time": 618,
+    "timeDay": 462,
+    "timeWeek": 585,
+    "timeMonth": 624,
+    "timeYear": 618,
+    "dailyMinutesDown": {
+      "2026-11-16": 0
+    }
   },
   {
     "name": "App",
