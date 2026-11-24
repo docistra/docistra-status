@@ -4,18 +4,20 @@
     "url": "https://docistra.com",
     "icon": "https://docistra.com/icon.svg",
     "slug": "website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1263,
     "timeDay": 1039,
     "timeWeek": 1252,
-    "timeMonth": 781,
+    "timeMonth": 791,
     "timeYear": 1263,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-24": 1
+    }
   },
   {
     "name": "Health",
@@ -31,7 +33,7 @@
     "time": 583,
     "timeDay": 357,
     "timeWeek": 419,
-    "timeMonth": 616,
+    "timeMonth": 625,
     "timeYear": 583,
     "dailyMinutesDown": {
       "2026-11-17": 25,
