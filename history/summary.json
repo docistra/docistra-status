@@ -4,19 +4,19 @@
     "url": "https://docistra.com",
     "icon": "https://docistra.com/icon.svg",
     "slug": "website",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1263,
-    "timeDay": 1039,
-    "timeWeek": 1252,
-    "timeMonth": 791,
-    "timeYear": 1263,
+    "status": "up",
+    "uptime": "99.92%",
+    "uptimeDay": "95.95%",
+    "uptimeWeek": "99.42%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.92%",
+    "time": 1260,
+    "timeDay": 1043,
+    "timeWeek": 1226,
+    "timeMonth": 798,
+    "timeYear": 1260,
     "dailyMinutesDown": {
-      "2026-11-24": 1
+      "2026-11-24": 58
     }
   },
   {
