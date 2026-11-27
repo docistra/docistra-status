@@ -1,7 +1,7 @@
 url: https://sms.docistra.com/api/v1/auth/who-am-i
 status: up
 code: 401
-responseTime: 364
-lastUpdated: 2026-11-26T23:51:12.954Z
+responseTime: 376
+lastUpdated: 2026-11-27T23:48:12.847Z
 startTime: 2026-11-02T17:38:39.279Z
 generator: Upptime <https://github.com/upptime/upptime>
